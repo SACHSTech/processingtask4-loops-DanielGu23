@@ -55,8 +55,7 @@ public class Sketch extends PApplet {
     float fltDistanceY = height / 12;
     
     // Use nested loop to draw circles
-    for (float fltCircleX = width - fltDistanceX; fltCircleX >= (float)(width / 2) + fltDistanceX; fltCircleX -=
-(float)(width / 12)){
+    for (float fltCircleX = width - fltDistanceX; fltCircleX >= (float)(width / 2) + fltDistanceX; fltCircleX -=(float)(width / 12)){
       for (float fltCircleY = 0 + fltDistanceY; fltCircleY <= (float)(height / 2) - fltDistanceY; fltCircleY += (float)(height / 12)){
         fill(123,324,322);
         ellipse(fltCircleX, fltCircleY, (float)(width / 20), (float)(height / 20));
