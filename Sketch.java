@@ -2,13 +2,18 @@ import processing.core.PApplet;
 
 public class Sketch extends PApplet {
 	
-	
   /**
-  * A program Sketch.java that uses loops to produce the following graphics: Quadrant 1 is a 10 x 10 grid that scales to with the size of window. Quadrant 2 is 5 x grid of evenly spaced circles that scales to the size of the window. Quadrant 3 is a horizontal grayscale gradient. Quadrant 4 is a 8 petal flower that uses a loop to draw the petals evenly spaced around the center of the flower.
+  * A program Sketch.java that uses loops to produce the following graphics: 
+  * Quadrant 1 is a 10 x 10 grid that scales to with the size of window. 
+  * Quadrant 2 is 5 x grid of evenly spaced circles that scales to the size of the window. 
+  * Quadrant 3 is a horizontal grayscale gradient. 
+  * Quadrant 4 is a 8 petal flower that uses a loop to draw the petals
+  * evenly spaced around the center of the flower.
   * @author: D. Gu
   */
+  
   public void settings() {
-	// put your size call here
+    // Size of the call
     size(350, 350);
   }
   
